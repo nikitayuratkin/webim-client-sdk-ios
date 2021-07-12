@@ -15,7 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(name: "WebimClientLibrary",
-                dependencies: ["SQLite.swift"],
-                path: "Source/WebimClientLibrary")
+                dependencies: ["SQLite.swift"]
+        )
     ]
 )
